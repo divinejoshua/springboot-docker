@@ -21,6 +21,7 @@ public class PostController {
         userDetails.put("name", "Alice");
         userDetails.put("email", "alice@example.com");
         userDetails.put("age", "28");
+        System.out.println("Worked");
 
         return new ResponseEntity<>(userDetails, HttpStatus.OK);
     }
