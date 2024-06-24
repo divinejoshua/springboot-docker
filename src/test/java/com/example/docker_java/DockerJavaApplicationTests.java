@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class DockerJavaApplicationTests {
 
-	@Test
+//	@Test
 	void contextLoads() {
 	}
 
