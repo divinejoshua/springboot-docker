@@ -1,5 +1,4 @@
 #!/bin/sh
 
-mvn clean
-mvn install
+mvn clean install
 docker-compose up --build -d
