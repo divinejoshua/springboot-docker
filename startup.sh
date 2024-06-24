@@ -1,4 +1,5 @@
 #!/bin/sh
 
-mvn clean install
-java -jar /app.jar
+mvn clean
+mvn install
+docker-compose up --build -d
